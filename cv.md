@@ -24,6 +24,7 @@ I really want to become a real programmer and get into the team.
 ## Contacts
 
 - Discord: DenisOle(@FriendOfEveryone)
+- Telegram: @TapokBabki
 - Telefons:
   - Poland: +48 732572\*\*\*
   - Belarus: +375 25 93172\*\*
