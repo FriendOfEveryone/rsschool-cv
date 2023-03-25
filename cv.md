@@ -1,5 +1,9 @@
 # Denis Sudnikov
 
+## My photo)
+
+![I am here](I.jpg "Hello")
+
 ## About me:
 
 - Date: 22.03.2022
@@ -24,5 +28,3 @@ I really want to become a real programmer and get into the team.
   - Poland: +48 732572\*\*\*
   - Belarus: +375 25 93172\*\*
 - E-mail: d_sudnikov@mail.ru
-  \
-  ![I am here](I.jpg "Hello")
