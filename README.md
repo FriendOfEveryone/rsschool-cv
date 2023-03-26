@@ -1,1 +1,1 @@
-https://FriedOfEveryone.github.io/rsschool-cv/cv
+https://FriedOfEveryone.github.io/rsschool-cv/
