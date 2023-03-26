@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1rem;
+    padding: 0px;
+}
+p {
+    font-size: 18px;
+}
+h1 {
+    text-align: center;
+}
+hr {
+    background-color: black;
+}
+figure {
+    padding: 25px;
+    margin: 0px;
+}
+.textStyle {
+    text-align: right;
+}
+.myPhoto {
+    border-radius: 150px; 
+    float: left; 
+    padding-right: 20px;
+    width: 220px;
+    height: 220px;
+}
+.logo {
+    float: left;
+    display: inline-block;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    width: 70px;
+    height: 70px;
+
+}
+.footer-logo {
+    padding: 0px;
+}
+nav {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    height: 70px;
+    background-color: black;
+    width: 100%;
+}
+nav ul {
+    font-size: 20px;
+    padding-top: 20px;
+}
+nav ul li {
+    padding-right: 15px;
+    display: inline-block;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: sticky;
+    left: 0; bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.flex1 {
+    flex-grow: 1;
+}
+footer p {
+    margin: 25px 10px;
+}
+footer div a {
+    color: white;
+    text-decoration: underline;
+}
+
+#alone {
+    color: black;
+}
