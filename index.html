@@ -2,16 +2,16 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>MyHTML</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
     <nav>
       <div class="logo">
-        <a href="https://rs.school/js/"><img class="logo" alt="RSSchools" src="rss.jpeg" /></a>
+        <a href="https://rs.school/js/"><img class="logo" alt="RSSchools" src="rss.jpeg"></a>
       </div>
       <ul>
         <li><a href="#about">About Me</a></li>
@@ -27,7 +27,7 @@
     <h1>CV</h1>
     <figure id="about">
       <h2>About me</h2>
-      <img class="myPhoto" alt="My Photo" src="I.jpg" />
+      <img class="myPhoto" alt="My Photo" src="I.jpg">
       <figcaption>
         <p>Name: Denis Sudnikov</p>
         <p>Date: 22.03.2022</p>
@@ -37,7 +37,7 @@
         <p>English level: Pre-Intermediate</p>
       </figcaption>
     </figure>
-    <hr />
+    <hr>
     <figure class="textStyle">
       <h2>Briefly story</h2>
       <figcaption>
@@ -53,56 +53,56 @@
         </p>
       </figcaption>
     </figure>
-    <hr />
+    <hr>
     <figure id="code">
       <h2>Code</h2>
       <figcaption>
         <code>
-            import React from "react";<br />
-            import "./App.css";<br />
-            import Header from "./Components/Header/Header";<br />
-            import Navbar from "./Components/Navbar/Navbar";<br />
-            import Profile from "./Components/Profile/Profile";<br />
-            import Dialogs from "./Components/Dialogs/Dialogs";<br />
-            import Settings from "./Components/Settings/Settings";<br />
-            import News from "./Components/News/News";<br />
-            import Music from "./Components/Music/Music";<br />
-            <br />
-            import { BrowserRouter, Routes, Route } from "react-router-dom";<br />
-            <br />
-            const App = (props) =&gt; {<br />
-            &nbsp;return (<br />
-            &nbsp;&nbsp;&lt;BrowserRouter&gt;<br />
-            &nbsp;&nbsp;&nbsp;&lt;div className="app-wrapper"&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&lt;Header /&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&lt;Navbar /&gt;<br />
+            import React from "react";<br>
+            import "./App.css";<br>
+            import Header from "./Components/Header/Header";<br>
+            import Navbar from "./Components/Navbar/Navbar";<br>
+            import Profile from "./Components/Profile/Profile";<br>
+            import Dialogs from "./Components/Dialogs/Dialogs";<br>
+            import Settings from "./Components/Settings/Settings";<br>
+            import News from "./Components/News/News";<br>
+            import Music from "./Components/Music/Music";<br>
+            <br>
+            import { BrowserRouter, Routes, Route } from "react-router-dom";<br>
+            <br>
+            const App = (props) =&gt; {<br>
+            &nbsp;return (<br>
+            &nbsp;&nbsp;&lt;BrowserRouter&gt;<br>
+            &nbsp;&nbsp;&nbsp;&lt;div className="app-wrapper"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;Header /&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;Navbar /&gt;<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
-            className="app-wrapper-content"&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Routes&gt;<br />
+            className="app-wrapper-content"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Routes&gt;<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/dialogs/*"
             element={&lt;Dialogs dialogsPage = {props.state.dialogsPage}
-            dispatch = {props.dispatch} /&gt;} /&gt;<br />
+            dispatch = {props.dispatch} /&gt;} /&gt;<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/profile"
             element={&lt;Profile profilePage = {props.state.profilePage}
-            dispatch = {props.dispatch} /&gt;} /&gt;<br />
+            dispatch = {props.dispatch} /&gt;} /&gt;<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/music"
-            element={&lt;Music /&gt;} /&gt;<br />
+            element={&lt;Music /&gt;} /&gt;<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/settings"
-            element={&lt;Settings /&gt;} /&gt;<br />
+            element={&lt;Settings /&gt;} /&gt;<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/news"
-            element={&lt;News /&gt;} /&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/Routes&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
-            &nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
-            &nbsp;&nbsp;&lt;/BrowserRouter&gt;<br />
-            &nbsp;);<br />
-            };<br />
-            <br />
-            export default App;<br />
+            element={&lt;News /&gt;} /&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/Routes&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+            &nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+            &nbsp;&nbsp;&lt;/BrowserRouter&gt;<br>
+            &nbsp;);<br>
+            };<br>
+            <br>
+            export default App;<br>
           </code>
       </figcaption>
     </figure>
-    <hr />
+    <hr>
     <figure class="textStyle" id="projects">
       <h2>Projects</h2>
       <p>At the moment, only one</p>
@@ -113,7 +113,7 @@
         <p>The list and the type of resume will be updated as you study :)</p>
       </figcaption>
     </figure>
-    <hr />
+    <hr>
     <figure id="skills">
       <h2>Skills</h2>
       <figcaption>
@@ -128,7 +128,7 @@
         </ul>
       </figcaption>
     </figure>
-    <hr />
+    <hr>
     <figure class="textStyle" id="future">
       <h2>Future</h2>
       <figcaption>
@@ -141,7 +141,7 @@
         </p>
       </figcaption>
     </figure>
-    <hr />
+    <hr>
     <figure id="contacts">
       <h2>Contacts</h2>
       <figcaption>
@@ -163,15 +163,13 @@
   </main>
   <footer>
     <div class="logo">
-      <a class="footer-logo" href="https://rs.school/js/"><img class="logo" alt="RSSchools" src="rss.jpeg" /></a>
+      <a class="footer-logo" href="https://rs.school/js/"><img class="logo" alt="RSSchools" src="rss.jpeg"></a>
     </div>
     <div class="flex1">
       <p>2023</p>
     </div>
     <div>
-      <a href="https://github.com/FriendOfEveryone">
-        <p>GitHub</p>
-      </a>
+      <a href="https://github.com/FriendOfEveryone"><p>GitHub</p></a>
     </div>
   </footer>
 </body>
