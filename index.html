@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title>MyHTML</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <a href="https://rs.school/js/"
-            ><img class="logo" alt="RSSchools" src="rss.jpeg"
-          /></a>
-        </div>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#code">Code</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#future">Future</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>CV</h1>
-      <figure id="about">
-        <h2>About me</h2>
-        <img class="myPhoto" alt="My Photo" src="I.jpg" />
-        <figcaption>
-          <p>Name: Denis Sudnikov</p>
-          <p>Date: 22.03.2022</p>
-          <p>Country: Belarus</p>
-          <p>Education: College</p>
-          <p>Work experience: None</p>
-          <p>English level: Pre-Intermediate</p>
-        </figcaption>
-      </figure>
-      <hr />
-      <figure class="textStyle">
-        <h2>Briefly story</h2>
-        <figcaption>
-          <p>
-            In 2018, I entered college as a programmer technician. The main
-            programming language was C#. The secondary programming language was
-            HTML+CSS+JS. In March of last year (2021), I graduated but for some
-            reason could not continue my studies or work in my specialty. In
-            February 2022, I tried to go for an internship at Andersen, but did
-            not qualify for reasons unknown to me. There is no real work
-            experience and portfolio at the moment. I really want to become a
-            real programmer and get into the team.
-          </p>
-        </figcaption>
-      </figure>
-      <hr />
-      <figure id="code">
-        <h2>Code</h2>
-        <figcaption>
-          <code>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>MyHTML</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="https://rs.school/js/"><img class="logo" alt="RSSchools" src="rss.jpeg" /></a>
+      </div>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#code">Code</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#future">Future</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>CV</h1>
+    <figure id="about">
+      <h2>About me</h2>
+      <img class="myPhoto" alt="My Photo" src="I.jpg" />
+      <figcaption>
+        <p>Name: Denis Sudnikov</p>
+        <p>Date: 22.03.2022</p>
+        <p>Country: Belarus</p>
+        <p>Education: College</p>
+        <p>Work experience: None</p>
+        <p>English level: Pre-Intermediate</p>
+      </figcaption>
+    </figure>
+    <hr />
+    <figure class="textStyle">
+      <h2>Briefly story</h2>
+      <figcaption>
+        <p>
+          In 2018, I entered college as a programmer technician. The main
+          programming language was C#. The secondary programming language was
+          HTML+CSS+JS. In March of last year (2021), I graduated but for some
+          reason could not continue my studies or work in my specialty. In
+          February 2022, I tried to go for an internship at Andersen, but did
+          not qualify for reasons unknown to me. There is no real work
+          experience and portfolio at the moment. I really want to become a
+          real programmer and get into the team.
+        </p>
+      </figcaption>
+    </figure>
+    <hr />
+    <figure id="code">
+      <h2>Code</h2>
+      <figcaption>
+        <code>
             import React from "react";<br />
             import "./App.css";<br />
             import Header from "./Components/Header/Header";<br />
@@ -76,17 +76,21 @@
             &nbsp;&nbsp;&nbsp;&lt;div className="app-wrapper"&gt;<br />
             &nbsp;&nbsp;&nbsp;&nbsp;&lt;Header /&gt;<br />
             &nbsp;&nbsp;&nbsp;&nbsp;&lt;Navbar /&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&lt;div className="app-wrapper-content"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;div
+            className="app-wrapper-content"&gt;<br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Routes&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/dialogs/*" element={&lt;Dialogs dialogsPage =
-            {props.state.dialogsPage} dispatch = {props.dispatch} /&gt;}
-            /&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/profile" element={&lt;Profile profilePage =
-            {props.state.profilePage} dispatch = {props.dispatch} /&gt;}
-            /&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/music" element={&lt;Music /&gt;} /&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/settings" element={&lt;Settings /&gt;} /&gt;<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/news" element={&lt;News /&gt;} /&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/dialogs/*"
+            element={&lt;Dialogs dialogsPage = {props.state.dialogsPage}
+            dispatch = {props.dispatch} /&gt;} /&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/profile"
+            element={&lt;Profile profilePage = {props.state.profilePage}
+            dispatch = {props.dispatch} /&gt;} /&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/music"
+            element={&lt;Music /&gt;} /&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/settings"
+            element={&lt;Settings /&gt;} /&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Route path="/news"
+            element={&lt;News /&gt;} /&gt;<br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/Routes&gt;<br />
             &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
             &nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
@@ -96,81 +100,80 @@
             <br />
             export default App;<br />
           </code>
-        </figcaption>
-      </figure>
-      <hr />
-      <figure class="textStyle" id="projects">
-        <h2>Projects</h2>
-        <p>At the moment, only one</p>
-        <figcaption>
-          <p>
-            <a
-              id="alone"
-              href="https://github.com/FriendOfEveryone/ReactTry.git"
-              >My first React(GitHub)</a
-            >
-          </p>
-          <p>The list and the type of resume will be updated as you study :)</p>
-        </figcaption>
-      </figure>
-      <hr />
-      <figure id="skills">
-        <h2>Skills</h2>
-        <figcaption>
-          <ul>
-            <li>HTML Basics</li>
-            <li>CSS Basics</li>
-            <li>JS Basics</li>
-            <li>React Basics</li>
-            <li>C# Basics</li>
-            <li>XML Basics</li>
-            <li>Access</li>
-          </ul>
-        </figcaption>
-      </figure>
-      <hr />
-      <figure class="textStyle" id="future">
-        <h2>Future</h2>
-        <figcaption>
-          <p>
-            At the moment, I want to choose a specific path in which I will
-            become a pro, and in the future to study, or at least try, all
-            programming languages and possible combinations with other sciences.
-            I want not just to write programs, but to create new ones and move
-            progress forward. (Become the second Elon Musk ahahah)
-          </p>
-        </figcaption>
-      </figure>
-      <hr />
-      <figure id="contacts">
-        <h2>Contacts</h2>
-        <figcaption>
-          <p>My contacts:</p>
-          <ul>
-            <li>
-              Telefons:
-              <ul>
-                <li>Belarus: +375(25)931-72-**</li>
-                <li>Poland: +48 732-572-***</li>
-              </ul>
-            </li>
-            <li>Discord: boroDA#1924</li>
-            <li>Email: d_sudnikov@mail.ru</li>
-            <li>Telegram: @TapokBabki</li>
-          </ul>
-        </figcaption>
-      </figure>
-    </main>
-    <footer>
-      <div class="logo">
-        <a class="footer-logo" href="https://rs.school/js/"
-          ><img class="logo" alt="RSSchools" src="rss.jpeg"
-        /></a>
-      </div>
-      <div class="flex1"><p>2023</p></div>
-      <div>
-        <a href="https://github.com/FriendOfEveryone"><p>GitHub</p></a>
-      </div>
-    </footer>
-  </body>
+      </figcaption>
+    </figure>
+    <hr />
+    <figure class="textStyle" id="projects">
+      <h2>Projects</h2>
+      <p>At the moment, only one</p>
+      <figcaption>
+        <p>
+          <a id="alone" href="https://github.com/FriendOfEveryone/ReactTry.git">My first React(GitHub)</a>
+        </p>
+        <p>The list and the type of resume will be updated as you study :)</p>
+      </figcaption>
+    </figure>
+    <hr />
+    <figure id="skills">
+      <h2>Skills</h2>
+      <figcaption>
+        <ul>
+          <li>HTML Basics</li>
+          <li>CSS Basics</li>
+          <li>JS Basics</li>
+          <li>React Basics</li>
+          <li>C# Basics</li>
+          <li>XML Basics</li>
+          <li>Access</li>
+        </ul>
+      </figcaption>
+    </figure>
+    <hr />
+    <figure class="textStyle" id="future">
+      <h2>Future</h2>
+      <figcaption>
+        <p>
+          At the moment, I want to choose a specific path in which I will
+          become a pro, and in the future to study, or at least try, all
+          programming languages and possible combinations with other sciences.
+          I want not just to write programs, but to create new ones and move
+          progress forward. (Become the second Elon Musk ahahah)
+        </p>
+      </figcaption>
+    </figure>
+    <hr />
+    <figure id="contacts">
+      <h2>Contacts</h2>
+      <figcaption>
+        <p>My contacts:</p>
+        <ul>
+          <li>
+            Telefons:
+            <ul>
+              <li>Belarus: +375(25)931-72-**</li>
+              <li>Poland: +48 732-572-***</li>
+            </ul>
+          </li>
+          <li>Discord: boroDA#1924</li>
+          <li>Email: d_sudnikov@mail.ru</li>
+          <li>Telegram: @TapokBabki</li>
+        </ul>
+      </figcaption>
+    </figure>
+  </main>
+  <footer>
+    <div class="logo">
+      <a class="footer-logo" href="https://rs.school/js/"><img class="logo" alt="RSSchools" src="rss.jpeg" /></a>
+    </div>
+    <div class="flex1">
+      <p>2023</p>
+    </div>
+    <div>
+      <a href="https://github.com/FriendOfEveryone">
+        <p>GitHub</p>
+      </a>
+    </div>
+  </footer>
+</body>
+
 </html>
